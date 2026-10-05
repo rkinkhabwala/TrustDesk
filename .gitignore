@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.trustdesk/
+results/
+*_completed.xlsx
+*_completed.csv
+# never commit real policies or customer questionnaires
+private/

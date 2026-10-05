@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trustdesk"
+version = "0.1.0"
+description = "Private security questionnaire assistant: cited answers from your own policies, on local Ollama models"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "ollama>=0.4",
+  "pydantic>=2.7",
+  "numpy>=1.26",
+  "typer>=0.12",
+  "openpyxl>=3.1",
+  "pypdf>=4",
+  "python-docx>=1.1",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.38"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+trustdesk = "trustdesk.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trustdesk"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501", "E741"]

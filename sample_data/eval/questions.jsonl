@@ -1,0 +1,40 @@
+{"id": "AB-001", "question": "Is customer data encrypted at rest?", "expected": "Yes", "expected_doc": "03-encryption-policy.md"}
+{"id": "AB-002", "question": "Are backups encrypted and stored in a separate geographic region?", "expected": "Yes", "expected_doc": "05-business-continuity-dr.md"}
+{"id": "AB-003", "question": "Are all code changes peer-reviewed before being deployed to production?", "expected": "Yes", "expected_doc": "07-secure-sdlc-policy.md"}
+{"id": "AB-004", "question": "Is system access revoked within 24 hours of an employee's termination?", "expected": "Yes", "expected_doc": "02-access-control-policy.md"}
+{"id": "AB-005", "question": "Do all employees complete security awareness training at least annually?", "expected": "Yes", "expected_doc": "09-hr-security-policy.md"}
+{"id": "AB-006", "question": "Do you carry cyber liability insurance, and what is the coverage limit?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-007", "question": "Do you have a current SOC 2 Type II report?", "expected": "Yes", "expected_doc": "10-compliance-overview.md"}
+{"id": "AB-008", "question": "Do you operate a security operations center staffed 24/7?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-009", "question": "Is your recovery time objective (RTO) 4 hours or less?", "expected": "Yes", "expected_doc": "05-business-continuity-dr.md"}
+{"id": "AB-010", "question": "Are employee laptops protected with full-disk encryption?", "expected": "Yes", "expected_doc": "03-encryption-policy.md"}
+{"id": "AB-011", "question": "Are user access rights to production systems reviewed at least quarterly?", "expected": "Yes", "expected_doc": "02-access-control-policy.md"}
+{"id": "AB-012", "question": "Does your platform support SAML-based single sign-on for customer users?", "expected": "Yes", "expected_doc": "02-access-control-policy.md"}
+{"id": "AB-013", "question": "Do you notify customers of a confirmed security breach affecting their data within 72 hours?", "expected": "Yes", "expected_doc": "04-incident-response-plan.md"}
+{"id": "AB-014", "question": "Is your platform FedRAMP authorized?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-015", "question": "Is your incident response plan tested at least annually?", "expected": "Yes", "expected_doc": "04-incident-response-plan.md"}
+{"id": "AB-016", "question": "Is production customer data used in development or test environments?", "expected": "No", "expected_doc": "07-secure-sdlc-policy.md"}
+{"id": "AB-017", "question": "Do you assess the security of vendors before they are given access to customer data?", "expected": "Yes", "expected_doc": "06-vendor-management-policy.md"}
+{"id": "AB-018", "question": "Is an independent penetration test performed at least annually?", "expected": "Yes", "expected_doc": "07-secure-sdlc-policy.md"}
+{"id": "AB-019", "question": "Are you ISO 27001 certified?", "expected": "No", "expected_doc": "10-compliance-overview.md"}
+{"id": "AB-020", "question": "Can your software be deployed on-premises in the customer's data center?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-021", "question": "Are critical vulnerabilities remediated within 7 days?", "expected": "Yes", "expected_doc": "07-secure-sdlc-policy.md"}
+{"id": "AB-022", "question": "Are security logs retained for at least one year?", "expected": "Yes", "expected_doc": "04-incident-response-plan.md"}
+{"id": "AB-023", "question": "Do you perform background checks on all employees?", "expected": "Partial", "expected_doc": "09-hr-security-policy.md"}
+{"id": "AB-024", "question": "Do you offer a data processing addendum that includes the EU Standard Contractual Clauses?", "expected": "Yes", "expected_doc": "08-data-privacy-retention.md"}
+{"id": "AB-025", "question": "Will you sign a HIPAA Business Associate Agreement?", "expected": "No", "expected_doc": "10-compliance-overview.md"}
+{"id": "AB-026", "question": "Can customers restrict platform access to an allowlist of IP addresses?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-027", "question": "Is customer data stored exclusively in the United States?", "expected": "Yes", "expected_doc": "08-data-privacy-retention.md"}
+{"id": "AB-028", "question": "Do you enforce TLS 1.2 or higher for data in transit over public networks?", "expected": "Yes", "expected_doc": "03-encryption-policy.md"}
+{"id": "AB-029", "question": "Do you support customer-managed encryption keys (BYOK)?", "expected": "No", "expected_doc": "03-encryption-policy.md"}
+{"id": "AB-030", "question": "Do you notify customers before adding a new subprocessor?", "expected": "Yes", "expected_doc": "06-vendor-management-policy.md"}
+{"id": "AB-031", "question": "Is data loss prevention (DLP) software deployed on employee endpoints?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-032", "question": "Do you directly audit the physical security of the data centers that host customer data?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-033", "question": "Is multi-factor authentication required for all employees accessing company systems?", "expected": "Yes", "expected_doc": "02-access-control-policy.md"}
+{"id": "AB-034", "question": "Do engineers have standing administrative access to production systems?", "expected": "No", "expected_doc": "02-access-control-policy.md"}
+{"id": "AB-035", "question": "Do you operate a public bug bounty program?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-036", "question": "Is all customer data, including backups, deleted within 30 days of contract termination?", "expected": "Partial", "expected_doc": "08-data-privacy-retention.md"}
+{"id": "AB-037", "question": "Are encryption keys rotated at least annually?", "expected": "Yes", "expected_doc": "03-encryption-policy.md"}
+{"id": "AB-038", "question": "Is a web application firewall (WAF) deployed in front of your application?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-039", "question": "Do you offer source code escrow?", "expected": "UNANSWERABLE", "expected_doc": null}
+{"id": "AB-040", "question": "Do you perform a disaster recovery failover test at least annually?", "expected": "Yes", "expected_doc": "05-business-continuity-dr.md"}

@@ -1,0 +1,13 @@
+Question,Answer
+Do you enforce MFA for workforce access?,Yes. MFA is required for all employees and contractors through our SSO provider; SMS is not an allowed factor.
+How long are backups retained?,Backups are retained for 30 days.
+Do you encrypt data in transit?,"Yes, TLS 1.2+ on all public endpoints."
+What are your RPO and RTO?,"RPO 1 hour, RTO 4 hours."
+Do you have a SOC 2 report?,"Yes, SOC 2 Type II, available under NDA."
+Where is customer data hosted?,AWS us-east-1 with DR in us-west-2.
+Do you perform annual penetration testing?,"Yes, by an independent third party; summary available under NDA."
+Do you have a documented incident response plan?,"Yes, owned by the CISO and tested annually via tabletop."
+Do you conduct phishing simulations?,"Yes, quarterly."
+Do you support SSO for customers?,"Yes, SAML 2.0."
+Are employees bound by confidentiality agreements?,"Yes, all employees and contractors sign one before getting access."
+Who is responsible for information security?,"The CISO, who reports to the CEO."
